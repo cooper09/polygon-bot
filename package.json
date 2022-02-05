@@ -1,0 +1,22 @@
+{
+  "name": "polygon-bot",
+  "version": "1.0.0",
+  "description": "polygon arb bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "polygon"
+  ],
+  "author": "cooper s",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "@walletconnect/web3-provider": "^1.7.1",
+    "dotenv": "^14.2.0",
+    "ethers": "^5.5.3",
+    "walletconnect": "^1.7.1",
+    "web3": "^1.7.0"
+  }
+}
