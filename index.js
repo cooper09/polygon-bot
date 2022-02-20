@@ -47,23 +47,14 @@ console.log("Current Contract balance: ", balance );
 //console.log(`Transaction hash: ${receipt.transactionHash}`);
 
 //console.log("Current Provider: ", provider );
-/*
+
 let r = await contract.methods.depositIt().send({
     from:ownerAddr,
-    gas: 80000
+    gas: 80000, 
+    value: 1234500000,
 }).then ( (result) => console.log("deposit result: ", result ))
-
-
-//const signer = provider.getSigner();
+  .else("Sorry Charlie...");
     
-    
-    //const balance = await contract.methods.getBalance().call(); //.then ((result)=> console.log("Our balance: "));
-*/
-    
-//     const signer = new ethers.Wallet(privateKey, provider);
-
- //   const myContract_write = new ethers.Contract(contractAddr, Contract, signer);
- //   const myContract_read = new ethers.Contract(contractAddr, Contract, Provider);
 /*
     myContract_read.getBalance().then (
         (result ) => {
@@ -71,6 +62,9 @@ let r = await contract.methods.depositIt().send({
         }
     )  */
 
+
+    console.log("Let's wrap it up!");
+    process.exit();
 
 }//end polyBot
 
